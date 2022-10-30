@@ -17,3 +17,45 @@ h4 {
   color: turquoise;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+a {
+  text-decoration: none;
+  color: tomato;
+  letter-spacing: 0.2rem;
+  font-weight: 900;
+  font-size: xx-large;
+  font-family: monospace;
+}
+.container {
+  height: fit-content;
+  width: fit-content;
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.cards {
+  text-align: center;
+  height: 12rem;
+  width: 15rem;
+  margin: 5rem;
+  background-color: #506070;
+  border-radius: 0.4rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.more
+{
+position: absolute;
+bottom: 1rem;
+padding: 0.3rem;
+background: transparent;
+border: 2px solid #18ffff;
+border-radius: 0.2rem;
+color: #ffffff;
+box-shadow: 0.1rem 0.1rem 3rem #006078;
+}
+.more:hover
+{
+    background: #18ffff;
+}
