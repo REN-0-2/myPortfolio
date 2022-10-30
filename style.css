@@ -4,13 +4,16 @@
   box-sizing: border-box;
 }
 body {
-  background-color: gray;
+  background-color: #304050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 h1 {
-  color: crimson;
+  color: whitesmoke;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 h4 {
-  color: tomato;
+  color: turquoise;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
